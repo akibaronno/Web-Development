@@ -1,0 +1,1 @@
+alert("Opening new website");
