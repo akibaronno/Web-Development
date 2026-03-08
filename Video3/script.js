@@ -1,1 +1,0 @@
-alert("Opening new website");
