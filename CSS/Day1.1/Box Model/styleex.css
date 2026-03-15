@@ -1,0 +1,40 @@
+.box{
+    height: 70px;
+    width: 500px;
+}
+
+.box1{
+    background-color: yellow;
+    padding: 10px;
+    color: red;
+    font-style: italic;
+    margin: 5px;
+}
+.box2{
+    background-color: blue;
+    padding: 10px;
+    color: white;
+    font-style: unset;
+    margin: 5px;
+}
+.box3{
+    background-color: blue;
+    padding: 10px;
+    color: white;
+    font-style: oblique;
+    margin: 5px;
+}
+.box4{
+    background-color: blue;
+    padding: 10px;
+    color: white;
+    font-style: inherit;
+    margin: 5px;
+}
+.box5{
+    background-color: blue;
+    padding: 10px;
+    color: white;
+   font-style: initial;
+    margin: 5px;
+}

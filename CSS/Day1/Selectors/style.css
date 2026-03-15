@@ -1,0 +1,36 @@
+ /* ***tag element selector ****
+
+ h1{
+    background-color: pink;
+}
+ul{
+    background-color: aquamarine;
+}
+
+h2{
+    background-color: blue;
+} 
+
+ ****id base selection or #base selection ****
+ 
+#first{
+    background-color: blue;
+}
+#second{
+    background-color: pink;
+} 
+
+ ****class base selection or dot base selection**** 
+
+ .third{
+    background-color: green;
+}
+.fourth{
+    background-color: red;
+}  */
+
+
+ ****group based selection ****
+h1,.fourth,#first{
+    background-color: aqua;
+}

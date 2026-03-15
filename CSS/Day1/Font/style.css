@@ -1,0 +1,61 @@
+/* pixel full meaning picture element */
+
+/* 1 pixel =  */
+
+h1{
+    font-size: 30px;
+}
+ul{
+    font-size: 20px;
+}
+
+/* li{
+    font-size: 1em;
+} */
+
+html{
+    font-size: 40px;
+}
+
+/* h2{
+    font-size: 2rem;
+} */
+
+/* h2{
+    font-size: 9vw;
+} */
+
+/* li{
+    font-size: 3vh;
+} */
+
+/* li{
+    font-size: 70%;
+} */
+
+/* h2{
+    font-size: 9vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;
+    font-style: italic;
+} */
+h2{
+    
+font-family: "Bitcount Prop Double Ink", system-ui;
+  font-optical-sizing: auto;
+  font-weight: <300>;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0.5,
+    "ELSH" 0,
+    "ELXP" 0,
+    "SZP1" 0,
+    "SZP2" 0,
+    "XPN1" 0,
+    "XPN2" 0,
+    "YPN1" 0,
+    "YPN2" 0;
+}
+
+

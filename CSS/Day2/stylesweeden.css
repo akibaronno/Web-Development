@@ -1,0 +1,38 @@
+#first{
+    background-color: yellow;
+    height: 200px;
+    width: 300px;
+    position: relative;
+}
+#second{
+    height: 85px;
+    width: 100px;
+    background-color: blue;
+}
+
+#third{
+    height: 85px;
+    width: 100px;
+    background-color: blue;
+    position: absolute;
+    bottom: 0px;
+}
+
+#fourth{
+
+    height: 85px;
+    width: 170px;
+    background-color: blue;
+    position: relative;
+    left: 130px;
+    bottom: 85px;
+}
+#five{
+
+    height: 85px;
+    width: 170px;
+    background-color: blue;
+    position: absolute;
+    left: 130px;
+    bottom: 0px;
+}

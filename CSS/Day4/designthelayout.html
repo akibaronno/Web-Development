@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise5</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .main {
+            background-color: rgb(146, 229, 232);
+            height: 1600px;
+            width: 1600px;
+
+        }
+
+        .nav {
+            background-color: rgb(255, 132, 0);
+            position: fixed;
+            width: 1600px;
+            height: 30px;
+            padding: 20px;
+
+        }
+
+        .nav ul li {
+            display: inline;
+            padding: 30px;
+        }
+
+        ul li a {
+            text-decoration: none;
+            color: rgb(50, 3, 17);
+            font-weight: bolder;
+        }
+
+        .parent {
+            background-color: green;
+            width: 1600px;
+            height: 800px;
+            display: flex;
+
+        }
+
+        .child1 {
+            height: 600px;
+            width: 687.5px;
+            background-color: red;
+            margin-right: 50px;
+            margin-left: 50px;
+        }
+
+        .child2 {
+            height: 600px;
+            width: 687.5px;
+            background-color: rgb(34, 0, 255);
+
+        }
+
+        .welcome {
+            margin: 100px;
+            margin-left: 100px;
+            background-color: blueviolet;
+            height: 300px;
+            width: 1220px;
+            padding: 50px;
+            border-radius: 100px;
+            text-align: center;
+        }
+
+        .logo {
+            height: 100px;
+            width: 100px;
+            background-color: rgb(255, 252, 80);
+            margin-top: -30px;
+            margin-left: 1350px;
+            border-radius: 50%;
+            position: sticky;
+            top: 75px;
+        }
+
+        .footer{
+
+            width: 1600px;
+            height: 120px;
+            background-color: rgba(14, 14, 14, 0.372);
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="main">
+        <header>
+            <div class="nav">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">RoadMap</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Service</a></li>
+                    <li><a href="/">Contact</a></li>
+                </ul>
+
+            </div>
+        </header>
+
+        <main>
+            <div class="parent">
+                <div class="box child1">
+
+                </div>
+                <div class="box child2">
+
+                </div>
+            </div>
+            <div class="logo">
+
+            </div>
+            <div class="welcome">
+                <H1>Welcome to this Website made by Akib</H1>
+            </div>
+        </main>
+
+        <footer>
+            <div class="footer">
+
+            </div>
+        </footer>
+
+    </div>
+</body>
+
+</html>

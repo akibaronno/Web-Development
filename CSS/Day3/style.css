@@ -1,0 +1,43 @@
+.container{
+    background-color: antiquewhite;
+    display: flex;
+    height: 600px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+      flex-wrap: wrap;
+     gap: 5px;
+}
+
+/* Justify Content: main axis er around a kaj kore, main axis decide your flex direton
+align items work around cross axis */
+
+.box{
+    height: 100px;
+    width: 100px;
+    
+}
+
+.first{
+
+    background-color: orange;
+    /* flex-grow: 1; */
+
+    /* flex-basis: 200px ; */
+}
+.second{
+
+    background-color: green;
+    flex-shrink: 4;
+    /* flex-grow: 2; */
+    /* flex-basis: 300px; */
+}
+
+.third{
+    background-color: red;
+    align-self: self-end;
+}
+.fourth{
+    background-color: chartreuse;
+}

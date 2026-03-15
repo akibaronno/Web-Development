@@ -1,0 +1,30 @@
+h1{
+    background-color: chartreuse;
+    height: 200px;
+    width: 200px;
+
+    border-width: 15px;
+    border-style: solid;
+    border-color: red;
+
+    /* border: 5px solid red;
+    padding: 10px;
+    margin: 30px; */
+    /* border-top: 5px solid blueviolet; */
+
+    padding: 20px 40px;
+    border-radius: 10%;
+}
+
+h2{
+    background-color: pink;
+    border: 5px solid rebeccapurple;
+}
+
+p{
+    background-color: magenta;
+    padding: 15px;
+    border: 5px solid saddlebrown;
+    border-radius: 10%;
+}
+

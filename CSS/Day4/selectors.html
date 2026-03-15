@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More Selectors</title>
+    <style>
+        /* .box:first-child{
+            background-color: red;
+        } */
+       /* .box::first-line{
+        color :rgb(255, 0, 0);
+       } */
+
+       /* .boxes *{
+            color: blue;
+            border: 2px solid black;
+       } */
+
+       .boxes::before{
+        content: "Harry is good";
+        color: red;
+       }
+       .boxes::after{
+        content: "Akib is good";
+       }
+       /* .boxes::selection{
+        background-color: black;
+        color: aqua;
+       } */
+       ::selection{
+        background-color: black;
+        color: aqua;
+       }
+       .box::first-letter{
+        color: rgb(221, 7, 245);
+        font-size: 20px;
+       }
+       input::placeholder{
+        color: red;
+
+       }
+
+    </style>
+</head>
+<body>
+    <div class="boxes">
+        <div class="box">Hey i am first box</div>
+              <div class="box">Hey i am a box</div>
+        <div class="box">Hey i am a box</div>
+
+        <input type="text" placeholder="Hi Akib">
+    </div>
+</body>
+</html>

@@ -1,0 +1,15 @@
+#container{
+    height: 400px;
+    width: 600px;
+    background-color: green;
+    position: relative;
+}
+#circle{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    left: 200px;
+    bottom: 100px;
+}

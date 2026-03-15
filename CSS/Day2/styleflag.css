@@ -1,0 +1,26 @@
+#first{
+
+    height: 600px;
+    width: 900px;
+    background-color: rgba(231, 9, 9, 0.884);
+    position: relative;
+}
+
+#second{
+    height: 200px;
+    width: 900px;
+    position: absolute;
+    bottom: 200px;
+    background-color: navy;
+}
+
+#third{
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    position: relative;
+    left:375px;
+    top: 22px;
+
+    border-radius: 50%;
+}

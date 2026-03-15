@@ -1,0 +1,29 @@
+/* h1{
+    background-color: orangered;
+}
+ul{
+    background-color: aquamarine;
+}
+h2{
+    background-color: blue;
+} */
+
+/* #first{
+    background-color: brown;
+}
+#second{
+    background-color: chartreuse;
+}
+
+.third{
+    background-color: orange;
+}
+
+.fourth{
+    background-color: navy;
+} */
+
+
+h1,#first,.fourth{
+    background-color: chartreuse;
+}

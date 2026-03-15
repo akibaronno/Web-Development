@@ -1,0 +1,36 @@
+h1{
+    font-size: 30px;
+}
+ul{
+    font-size: 20px;
+}
+/* li{
+    font-size: 1em;
+} */
+
+/* html{
+    font-size: 40px;
+} */
+/* h2{
+    font-size: 2rem;
+} */
+
+/* h2{
+    font-size: 6vw;
+}
+
+li{
+    font-size: 70%;
+} */
+
+
+
+
+ol{
+    font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}

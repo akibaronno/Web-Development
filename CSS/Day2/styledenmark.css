@@ -1,0 +1,39 @@
+#container{
+    height: 200px;
+    width: 300px;
+    background-color: yellow;
+    position: relative;
+}
+
+.box{
+    box-sizing: border-box;
+    background-color: rgba(5, 5, 220, 0.9); 
+}
+
+.second,.fourth{
+     height: 85px;
+     width: 100px;
+}
+.second{
+    position: absolute;
+    top: 0px;
+}
+.fourth{
+    position: absolute;
+    bottom: 0px;
+}
+
+.third,.five{
+    height: 85px;
+    width: 170px;
+}
+.third{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.five{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
